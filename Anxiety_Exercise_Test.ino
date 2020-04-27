@@ -19,11 +19,6 @@ void setup() {
 }
 
 void loop() {
-  anxietyExercise();
-
-
-void anxietyExercise() {
-
   // Set up the Inhaling Color Pattern. When the first LED lights up, begin to inhale, and when all 4 are lit up, stop inhaling. 
   strip.setPixelColor(0, 50, 0, 0);
   strip.show();
